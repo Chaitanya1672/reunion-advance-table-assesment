@@ -8,7 +8,11 @@ import {
   IconButton,
 } from '@mui/material'
 import { MRT_ColumnDef, MRT_VisibilityState } from 'material-react-table'
-import { APPLY, SHOW_ALL_COLUMNS, SHOW_HIDE_COLUMNS } from '../constants/constants'
+import {
+  APPLY,
+  SHOW_ALL_COLUMNS,
+  SHOW_HIDE_COLUMNS,
+} from '../constants/constants'
 import { Close } from '@mui/icons-material'
 
 interface ColumnVisibilityPanelProps<T extends Record<string, any>> {

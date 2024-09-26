@@ -53,7 +53,7 @@ const ChipMultiSelectFilter: React.FC<ChipMultiSelectFilterProps> = ({
     if (currentFilter) {
       setSelectedValues(currentFilter.value as string[])
     }
-    
+
     if (columnFilters.length === 0) {
       setSelectedValues([])
     }
