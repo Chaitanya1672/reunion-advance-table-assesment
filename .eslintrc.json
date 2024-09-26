@@ -1,0 +1,46 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "plugin:@typescript-eslint/recommended",
+    "next",
+    "next/core-web-vitals",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "next/typescript"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "object-curly-spacing": ["error", "always"],
+    "max-len": [
+      "error",
+      {
+        "code": 380,
+        "ignoreComments": true
+      }
+    ],
+    "react/react-in-jsx-scope": "off",
+    "semi": ["error", "never"],
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "react/no-unescaped-entities": "off"
+  },
+  "plugins": ["@typescript-eslint", "prettier"]
+}

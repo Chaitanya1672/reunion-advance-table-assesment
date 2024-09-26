@@ -1,0 +1,7 @@
+node_modules
+.github
+.next
+next-env.d.ts
+node_modules
+package-lock.json
+public
